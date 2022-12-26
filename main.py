@@ -44,5 +44,3 @@ with open("resumes.csv", "w", encoding="utf-8", newline='') as file:
             writer.writerow(r.keys())
             count += 1
         writer.writerow(r.values())
-
-print(datetime.datetime.now() - start)
