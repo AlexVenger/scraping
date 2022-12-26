@@ -3,9 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import csv
-import datetime
-
-start = datetime.datetime.now()
 
 url = "https://v-tylu.work/en"
 page = 1
